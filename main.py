@@ -3,7 +3,7 @@ from tqdm import tqdm
 
 # URL do vídeo do YouTube
 urls = [
-    'https://www.youtube.com/watch?v=GNsuF4xB80E&list=PL0Zuz27SZ-6NamGNr7dEqzNFEcZ_FAUVX&index=7'
+    ''
 ]
 
 for url in urls:
