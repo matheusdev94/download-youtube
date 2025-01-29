@@ -9,6 +9,7 @@ def create_directory(directory_name):
     """
     Cria uma pasta com o nome especificado, caso ela não exista.
     """
+    directory_name = f"../{directory_name}"
     if not os.path.exists(directory_name):
         os.makedirs(directory_name)
 
